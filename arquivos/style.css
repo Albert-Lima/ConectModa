@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --FontParágrafos: 'League Spartan', sans-serif;
+    --FontTitles: 'Marck Script', cursive;
+}
+#Topo{
+    height: 70vh;
+    background-image: linear-gradient(to right bottom, black, rgb(33, 1, 1) );
+}
+#LinkInstagram{
+    position: fixed;
+    top: 10px;
+    right: 15px;
+    height: 40px;
+    width: 40px;
+}
+#LinkInstagram img{
+    height: 40px;
+}
+#BoxLogo{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 25vh;
+    left: calc(50% - 125px);
+}
+#BoxLogo img{
+    width: 200px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, 0.035);
+}
+#Present{
+    color: white;
+    font-size: 15pt;
+    font-weight: 400;
+    font-family: var(--FontParágrafos);
+    margin-top: 10px;
+}
+footer{
+    height: 250px;
+    display: flex;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#cronometro{
+    color: white;
+    font-family: var(--FontParágrafos);
+    font-size: 10pt;
+    font-weight: 400;
+    margin: auto;
+    width: max-content;
+}
+article{
+    margin-top: 40px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    background-color: black;
+}
+.Letra{
+    color: white;
+    font-family: var(--FontParágrafos);
+    font-size: 10pt;
+    margin-top: 5px;
+}
+.LetraAlert{
+    margin-top: 5px;
+    color: white;
+    font-family: var(--FontParágrafos);
+    font-size: 12pt;
+}
+#Local{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+#IconLocal{
+    height: 15px;
+}
+.LocalLetra{
+    color: gray;
+    
+    text-decoration: underline;
+    font-family: var(--FontParágrafos);
+    font-size: 10pt;
+    font-weight: 500;
+}

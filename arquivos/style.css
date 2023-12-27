@@ -6,9 +6,17 @@
     --FontParágrafos: 'League Spartan', sans-serif;
     --FontTitles: 'Marck Script', cursive;
 }
+@keyframes animelogo {
+    0%{
+        top: 25vh;
+    }
+    100%{
+        top: 20vh;
+    }
+}
 #Topo{
     height: 70vh;
-    background-image: linear-gradient(to right bottom, black, rgb(33, 1, 1) );
+    background-image: linear-gradient(to right bottom, black, rgb(61, 0, 0) );
 }
 #LinkInstagram{
     position: fixed;
@@ -25,13 +33,16 @@
     width: 250px;
     height: 250px;
     border-radius: 100%;
-    background-color: transparent;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     top: 25vh;
     left: calc(50% - 125px);
+    animation-name: animelogo;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 #BoxLogo img{
     width: 200px;

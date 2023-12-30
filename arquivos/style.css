@@ -55,18 +55,6 @@ header{
     font-weight: 400;
     font-family: var(--FontParágrafos);
 }
-#imagens-propaganda{
-    height: 200px;
-    max-width: 400px;
-    width: 100%;
-    position: absolute;
-    top: calc( 70vh - 200px);
-    left: 0px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-}
 #ImgModa{
     height: 200px;
     width: 500px;
@@ -89,34 +77,38 @@ header{
     height: 200px;
 }
 #Img2{
-    height: 200px;
+    height: 100px;
 }
 #Img2 img{
-    height: 200px;
+    height: 100px;
 }
 #Img3{
-    height: 150px;
+    height: 200px;
     width: 200px;
     position: absolute;
     top: 35vh;
-    left: calc(50vw - 125px);
+    left: calc(50vw - 100px);
 }
 #Img3 img{
-    height: 150px;;
+    height: 200px;
 }
 @media (max-width: 450px){
     #Img3{
-        height: 100px;
-        width: 100px;
-        left: calc(50vw - 90px);
+        height: 80px;
+        width: 80px;
+        left: calc(50vw - 125px);
     }
     #Img3 img{
-        height: 100px;
+        height: 200px;
     }
 }
-@media (max-width: 320px){
+@media (max-width: 350px){
     #Img3{
-        display: none;
+        height: 150px;
+        left: calc(50vw - 75px);
+    }
+    #Img3 img{
+        height: 150px;
     }
 }
 @media (max-height: 560px) {
@@ -131,10 +123,10 @@ header{
         height: 150px;
     }
     #Img2{
-        height: 150px;
+        height: 100px;
     }
     #Img2 img{
-        height: 150px;
+        height: 100px;
     }
     #Img3{
         top: calc(70vh - 150px);

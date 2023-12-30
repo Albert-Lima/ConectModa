@@ -78,6 +78,7 @@ header{
 }
 #Img2 img{
     height: 100px;
+    margin-right: 50px;
 }
 #Img3{
     height: 200px;
@@ -147,7 +148,7 @@ header{
     }
     #Img3{
         top: calc(50vh - 60px);
-        left: calc(50vw - 100px);
+        left: calc(50vw - 130px);
     }
     #Img3 img{
         height: 150px;

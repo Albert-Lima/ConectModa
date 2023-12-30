@@ -70,9 +70,6 @@ header{
         width: 100%;
     }
 }
-#Img1{
-    height: 200px;
-}
 #Img1 img{
     height: 200px;
 }
@@ -112,7 +109,7 @@ header{
         top: 25vh;
     }
     #Img3 img{
-        height: 150px;
+        height: 130px;
     }
     #Img4{
         display: block;

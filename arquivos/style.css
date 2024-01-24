@@ -6,18 +6,19 @@
     --FontParágrafos: 'League Spartan', sans-serif;
     --FontTitles: 'Marck Script', cursive;
 }
-@keyframes animelogo {
+@keyframes animeLogo {
     0%{
-        top: 30vh;
+        top: 8vh;
     }
     100%{
-        top: 35vh;
+        top: 13vh;
     }
 }
 body{
     background-color: black;
 }
 #Topo{
+    background-color: black;
     height: 70vh;
     max-width: 500px;
     margin: auto;
@@ -36,17 +37,19 @@ header{
     height: 40px;
 }
 #BoxLogo{
-    position: absolute;
     width: 250px;
     height: 200px;
-    border-radius: 100%;
+    position: relative;
+    top: 10vh;
+    left: calc(50% - 125px);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    top: 0vh;
-    left: calc(50% - 125px);
-    z-index: 5000;
+    animation-name: animeLogo;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 #BoxLogo img{
     width: 100px;
@@ -57,108 +60,6 @@ header{
     font-size: 15pt;
     font-weight: 400;
     font-family: var(--FontParágrafos);
-}
-#ImgModa{
-    height: 200px;
-    width: 500px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    position: absolute;
-    top: calc(70vh - 200px);
-}
-@media (max-width: 500px) {
-    #ImgModa{
-        width: 100%;
-    }
-}
-#Img1 img{
-    height: 200px;
-}
-#Img2{
-    height: 100px;
-}
-#Img2 img{
-    height: 100px;
-    margin-right: 50px;
-}
-#Img3{
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    top: 35vh;
-    left: calc(50vw - 130px);
-}
-#Img3 img{
-    height: 200px;
-}
-#Img4{
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    top: 25vh;
-    left: calc(10vw);
-    z-index: -1;
-    display: none;
-}
-#Img4 img{
-    height: 180px;
-}
-@media (max-width: 450px){
-    #Img3{
-        height: 80px;
-        width: 80px;
-        left: calc(50vw + 30px);
-        top: 25vh;
-    }
-    #Img3 img{
-        height: 130px;
-    }
-    #Img4{
-        display: block;
-    }
-}
-@media (max-width: 350px){
-    #Img3{
-        height: 150px;
-        left: calc(50vw);
-    }
-    #Img3 img{
-        height: 150px;
-    }
-    #Img4{
-        height: 150px;
-        left: calc(10vw)
-    }
-}
-@media (max-height: 560px) {
-    #ImgModa{
-        top: calc(70vh - 150px);
-        height: 150px;
-    }
-    #Img1{
-        height: 150px;
-    }
-    #Img1 img{
-        height: 150px;
-    }
-    #Img2{
-        height: 100px;
-    }
-    #Img2 img{
-        height: 100px;
-    }
-    #Img3{
-        top: calc(50vh - 60px);
-        left: calc(50vw - 130px);
-    }
-    #Img3 img{
-        height: 150px;
-    }
-    #Img4{
-        display: none;
-    }
 }
 footer{
     height: calc(30vh + 50px);

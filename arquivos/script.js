@@ -1,4 +1,4 @@
-const dataFinal = new Date().getTime() + 5000;
+const dataFinal = new Date().getTime() + 2000;
 
 const intervalo = setInterval(function() {
   const dataAtual = new Date().getTime();
@@ -19,4 +19,4 @@ const intervalo = setInterval(function() {
 // Redireciona para a página especificada após 5 segundos
 setTimeout(function() {
   window.location.href = "https://wa.me/5518998012426?text=Olá, vim pelo Google. Gostaria de fazer um orçamento!";
-}, 5000); // 5000 milissegundos = 5 segundos
+}, 2000); // 2000 milissegundos = 2 segundos

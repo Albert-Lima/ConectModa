@@ -23,18 +23,17 @@ body{
     max-width: 500px;
     margin: auto;
 }
-header{
-    width: 100%;
-}
 #LinkInstagram{
     position: relative;
     top: 10px;
+    z-index: 100;
     left: 15px;
     height: 40px;
     width: 40px;
 }
 #LinkInstagram img{
-    height: 40px;
+    height: 35px;
+    filter: brightness(0);
 }
 #BoxLogo{
     width: 250px;
@@ -92,8 +91,8 @@ footer{
 .Letra{
     color: black;
     font-family: var(--FontParágrafos);
-    font-size: 10pt;
-    margin-top: 5px;
+    font-size: 13pt;
+    margin-bottom: 5px;
 }
 .LetraAlert{
     margin-top: 5px;
